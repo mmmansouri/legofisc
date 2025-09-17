@@ -1,9 +1,102 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.2.3">
   <diagram name="Page-1" id="OPdhAlpwpxE6zZgJCUfq">
-    <mxGraphModel>
+    <mxGraphModel dx="1419" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-14" value="&lt;b&gt;Legofisc&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Base de donnée&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;labelBorderColor=default;labelBackgroundColor=#B85450;fillColor=#f8cecc;strokeColor=#000000;gradientColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="613" y="490" width="195" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-9" value="&lt;b&gt;XXX&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Schema&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;gradientColor=#B85450;" vertex="1" parent="1">
+          <mxGeometry x="680.5" y="880" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-10" value="&lt;b style=&quot;text-wrap-mode: nowrap;&quot;&gt;DCL&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Schema&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;gradientColor=#B85450;" vertex="1" parent="1">
+          <mxGeometry x="680.5" y="530" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-11" value="&lt;b style=&quot;text-wrap-mode: nowrap;&quot;&gt;PASRAU&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Schema&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;gradientColor=#B85450;" vertex="1" parent="1">
+          <mxGeometry x="680.5" y="620" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-12" value="&lt;div&gt;&lt;b style=&quot;text-wrap-mode: nowrap;&quot;&gt;Ficovie&lt;/b&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Schema&amp;nbsp;&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;gradientColor=#B85450;" vertex="1" parent="1">
+          <mxGeometry x="680.5" y="710" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="880" as="sourcePoint" />
+            <mxPoint x="710" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-20" value="&lt;b&gt;LegoFisc-DCL&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Web API / Batch / Liquibase&lt;/font&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;labelPosition=center;align=center;gradientColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="319" y="399" width="209" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WOsJJJonh32t5zIQ6HqB-21" target="WOsJJJonh32t5zIQ6HqB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-21" value="&lt;b&gt;LegoFisc-&lt;/b&gt;&lt;b&gt;PASRAU&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Web API / Batch / Liquibase&lt;/span&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;labelPosition=center;align=center;gradientColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="344" y="585" width="133" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-22" value="&lt;b&gt;LegoFisc-&lt;/b&gt;&lt;b&gt;Ficovie&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Web API / Batch / Liquibase&lt;/span&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;labelBorderColor=none;labelPosition=center;align=center;gradientColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="351" y="700" width="134" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-23" value="&lt;b&gt;LegoFisc-&lt;/b&gt;&lt;b&gt;XXX&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Web API / Batch / Liquibase&lt;/span&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;labelBorderColor=none;labelPosition=center;align=center;gradientColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="350.5" y="916" width="135" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-24" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.476;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WOsJJJonh32t5zIQ6HqB-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="870" as="sourcePoint" />
+            <mxPoint x="415" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WOsJJJonh32t5zIQ6HqB-20" target="WOsJJJonh32t5zIQ6HqB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WOsJJJonh32t5zIQ6HqB-22" target="WOsJJJonh32t5zIQ6HqB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WOsJJJonh32t5zIQ6HqB-23" target="WOsJJJonh32t5zIQ6HqB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="WOsJJJonh32t5zIQ6HqB-33" target="WOsJJJonh32t5zIQ6HqB-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="WOsJJJonh32t5zIQ6HqB-33" target="WOsJJJonh32t5zIQ6HqB-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-33" value="&lt;b&gt;LegoFisc-Front&lt;/b&gt;&lt;div&gt;Angular&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;gradientColor=#66CC00;" vertex="1" parent="1">
+          <mxGeometry x="3" y="650" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.517;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.927;exitY=0.164;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WOsJJJonh32t5zIQ6HqB-33" target="WOsJJJonh32t5zIQ6HqB-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="83" y="661" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="163" y="665" />
+              <mxPoint x="163" y="484" />
+              <mxPoint x="305" y="484" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.531;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.925;exitY=0.796;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WOsJJJonh32t5zIQ6HqB-33" target="WOsJJJonh32t5zIQ6HqB-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="73" y="730" as="sourcePoint" />
+            <mxPoint x="348" y="955.87" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="163" y="722" />
+              <mxPoint x="163" y="966" />
+              <mxPoint x="351" y="966" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-38" value="&lt;div&gt;Daemon&lt;/div&gt;Batch" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="434" y="409" width="63" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-39" value="WebApi" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="389" y="501" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-40" value="Persistance" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="350" y="407" width="65" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="WOsJJJonh32t5zIQ6HqB-41" value="Quel est l&#39;apport du nouveau model&amp;nbsp; unifié?&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Quels sont les données de même nature entre les modèles qui justifierais une mutualisation ?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Quels sont les fonctionnalité communes ?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Quels sont les attentes fonctionnelles du Lot 1 et Lot 2 ?&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="12" y="326" width="533" height="87" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
